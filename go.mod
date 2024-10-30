@@ -1,6 +1,6 @@
 module github.com/yrzs/openimsdkcore
 
-go 1.18
+go 1.23.2
 
 require (
 	github.com/golang/protobuf v1.5.3
@@ -18,17 +18,17 @@ require golang.org/x/net v0.19.0
 require (
 	github.com/google/go-cmp v0.5.9
 	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/yrzs/openimsdkprotocol v0.0.0-20241030092424-c7333d39230a
+	github.com/yrzs/openimsdktools v0.0.0-20241030091818-c2b9a338f4a7
 	golang.org/x/image v0.14.0
 	gorm.io/gorm v1.23.8
 )
 
 require (
-	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
 	github.com/mattn/go-sqlite3 v1.14.12 // indirect
-	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
