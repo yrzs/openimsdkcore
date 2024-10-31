@@ -4,12 +4,13 @@ go 1.23.2
 
 require (
 	github.com/golang/protobuf v1.5.3
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/jinzhu/copier v0.3.5
+	github.com/openimsdk/protocol v0.0.72
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/yrzs/openimsdkprotocol v0.0.0-20241030092424-c7333d39230a
+	github.com/yrzs/openimsdkprotocol v1.0.1
 	github.com/yrzs/openimsdktools v0.0.0-20241030091818-c2b9a338f4a7
 	golang.org/x/image v0.21.0
 	golang.org/x/net v0.30.0
@@ -31,7 +32,7 @@ require (
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.19.0 // indirect
-	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
-	google.golang.org/grpc v1.56.2 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
+	google.golang.org/grpc v1.62.1 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )

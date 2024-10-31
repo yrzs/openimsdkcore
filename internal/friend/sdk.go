@@ -16,13 +16,13 @@ package friend
 
 import (
 	"context"
+	"github.com/openimsdk/protocol/wrapperspb"
 	"github.com/yrzs/openimsdkcore/internal/util"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 	sdk "github.com/yrzs/openimsdkcore/pkg/sdk_params_callback"
 	"github.com/yrzs/openimsdkcore/pkg/sdkerrs"
 	"github.com/yrzs/openimsdkcore/pkg/server_api_params"
-	"github.com/yrzs/openimsdkprotocol/wrapperspb"
 	"github.com/yrzs/openimsdktools/errs"
 
 	"github.com/yrzs/openimsdkprotocol/friend"

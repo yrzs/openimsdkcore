@@ -38,9 +38,9 @@ import (
 
 	"github.com/yrzs/openimsdktools/log"
 
+	"github.com/openimsdk/protocol/wrapperspb"
 	pbConversation "github.com/yrzs/openimsdkprotocol/conversation"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
-	"github.com/yrzs/openimsdkprotocol/wrapperspb"
 
 	"github.com/jinzhu/copier"
 )

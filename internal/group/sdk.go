@@ -26,9 +26,9 @@ import (
 
 	"github.com/yrzs/openimsdktools/log"
 
+	"github.com/openimsdk/protocol/wrapperspb"
 	"github.com/yrzs/openimsdkprotocol/group"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
-	"github.com/yrzs/openimsdkprotocol/wrapperspb"
 	"github.com/yrzs/openimsdktools/utils"
 )
 

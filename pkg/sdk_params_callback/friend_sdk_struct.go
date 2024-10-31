@@ -15,10 +15,10 @@
 package sdk_params_callback
 
 import (
+	"github.com/openimsdk/protocol/wrapperspb"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 	"github.com/yrzs/openimsdkcore/pkg/server_api_params"
-	"github.com/yrzs/openimsdkprotocol/wrapperspb"
 )
 
 // 1
