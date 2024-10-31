@@ -10,7 +10,6 @@ require (
 	github.com/openimsdk/protocol v0.0.72
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/openimsdk/protocol v0.0.72
 	github.com/yrzs/openimsdktools v0.0.0-20241030091818-c2b9a338f4a7
 	golang.org/x/image v0.21.0
 	golang.org/x/net v0.30.0

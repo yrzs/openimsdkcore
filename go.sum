@@ -44,8 +44,6 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.8.3 h1:RP3t2pwF7cMEbC1dqtB6poj3niw/9gnV4Cjg5oW5gtY=
 github.com/stretchr/testify v1.8.3/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
-github.com/openimsdk/protocol v1.0.1 h1:oM0kVu3+ToKUu7Boi8EIttgoG6tZ0O5pNdnJLV5ok4E=
-github.com/openimsdk/protocol v1.0.1/go.mod h1:UByXOTda79Ijf5UScvpQazmsFGJW1A+ZXR/JC+hUXwg=
 github.com/yrzs/openimsdktools v0.0.0-20241030091818-c2b9a338f4a7 h1:rR+C9pYO7Zd0+KYVGftKn5X2SXGU3bE5tmTCXnbP1gc=
 github.com/yrzs/openimsdktools v0.0.0-20241030091818-c2b9a338f4a7/go.mod h1:NgwTjgblqwbTXpM7nfyT1mLJKrCijlzlH8lJ2Piz6Rs=
 go.uber.org/atomic v1.7.0 h1:ADUqmZGgLDDfbSL9ZmPxKTybcoEYHgpYfELNoN+7hsw=

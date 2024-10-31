@@ -25,7 +25,7 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/server_api_params"
 	"github.com/yrzs/openimsdktools/errs"
 
-	"github.com/openimsdk/protocol/friend"
+	friend "github.com/openimsdk/protocol/relation"
 	"github.com/yrzs/openimsdktools/log"
 )
 
