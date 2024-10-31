@@ -16,13 +16,13 @@ package user
 
 import (
 	"context"
+	pbUser "github.com/openimsdk/protocol/user"
+	userPb "github.com/openimsdk/protocol/user"
 	"github.com/yrzs/openimsdkcore/internal/util"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
-	pbUser "github.com/yrzs/openimsdkprotocol/user"
-	userPb "github.com/yrzs/openimsdkprotocol/user"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 func (u *User) GetUsersInfo(ctx context.Context, userIDs []string) ([]*model_struct.LocalUser, error) {

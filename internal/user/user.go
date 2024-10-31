@@ -24,16 +24,16 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/sdkerrs"
 	"github.com/yrzs/openimsdkcore/pkg/syncer"
 
-	authPb "github.com/yrzs/openimsdkprotocol/auth"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
-	userPb "github.com/yrzs/openimsdkprotocol/user"
+	authPb "github.com/openimsdk/protocol/auth"
+	"github.com/openimsdk/protocol/sdkws"
+	userPb "github.com/openimsdk/protocol/user"
 	"github.com/yrzs/openimsdktools/log"
 
+	PbConstant "github.com/openimsdk/protocol/constant"
 	"github.com/yrzs/openimsdkcore/open_im_sdk_callback"
 	"github.com/yrzs/openimsdkcore/pkg/common"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
-	PbConstant "github.com/yrzs/openimsdkprotocol/constant"
 )
 
 type BasicInfo struct {

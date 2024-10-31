@@ -17,10 +17,10 @@ package user
 import (
 	"context"
 	"errors"
+	userPb "github.com/openimsdk/protocol/user"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
-	userPb "github.com/yrzs/openimsdkprotocol/user"
 
 	"github.com/yrzs/openimsdktools/errs"
 	"github.com/yrzs/openimsdktools/log"

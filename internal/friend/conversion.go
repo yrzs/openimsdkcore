@@ -17,7 +17,7 @@ package friend
 import (
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 func ServerFriendRequestToLocalFriendRequest(info *sdkws.FriendRequest) *model_struct.LocalFriendRequest {

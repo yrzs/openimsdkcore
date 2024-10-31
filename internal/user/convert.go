@@ -17,7 +17,7 @@ package user
 import (
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 func ServerUserToLocalUser(user *sdkws.UserInfo) *model_struct.LocalUser {

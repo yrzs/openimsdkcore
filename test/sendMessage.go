@@ -15,10 +15,10 @@
 package test
 
 import (
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdkcore/open_im_sdk"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

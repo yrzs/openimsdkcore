@@ -25,7 +25,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

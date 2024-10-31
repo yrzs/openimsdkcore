@@ -26,7 +26,7 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/syncer"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

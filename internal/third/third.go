@@ -16,9 +16,9 @@ package third
 
 import (
 	"context"
+	"github.com/openimsdk/protocol/third"
 	"github.com/yrzs/openimsdkcore/internal/util"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
-	"github.com/yrzs/openimsdkprotocol/third"
 
 	"github.com/yrzs/openimsdkcore/internal/file"
 )

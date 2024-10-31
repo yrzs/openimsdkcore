@@ -15,12 +15,12 @@
 package testv2
 
 import (
+	"github.com/openimsdk/protocol/group"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/openimsdk/protocol/wrapperspb"
 	"github.com/yrzs/openimsdkcore/open_im_sdk"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/sdk_params_callback"
-	"github.com/yrzs/openimsdkprotocol/group"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"testing"
 )
 

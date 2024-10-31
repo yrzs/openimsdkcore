@@ -16,6 +16,8 @@ package group
 
 import (
 	"context"
+	"github.com/openimsdk/protocol/group"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdkcore/internal/util"
 	"github.com/yrzs/openimsdkcore/open_im_sdk_callback"
 	"github.com/yrzs/openimsdkcore/pkg/common"
@@ -25,8 +27,6 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/sdkerrs"
 	"github.com/yrzs/openimsdkcore/pkg/syncer"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
-	"github.com/yrzs/openimsdkprotocol/group"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 	utils2 "github.com/yrzs/openimsdktools/utils"
 )

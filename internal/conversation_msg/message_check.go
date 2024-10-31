@@ -24,7 +24,7 @@ import (
 
 	"github.com/yrzs/openimsdktools/log"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 	utils2 "github.com/yrzs/openimsdktools/utils"
 )
 

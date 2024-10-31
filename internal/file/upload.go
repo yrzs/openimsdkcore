@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yrzs/openimsdkprotocol/third"
+	"github.com/openimsdk/protocol/third"
 	"github.com/yrzs/openimsdktools/log"
 )
 

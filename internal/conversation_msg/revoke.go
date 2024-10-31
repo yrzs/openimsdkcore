@@ -25,8 +25,8 @@ import (
 	"github.com/yrzs/openimsdkcore/sdk_struct"
 
 	"github.com/jinzhu/copier"
-	pbMsg "github.com/yrzs/openimsdkprotocol/msg"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	pbMsg "github.com/openimsdk/protocol/msg"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 	utils2 "github.com/yrzs/openimsdktools/utils"
 )

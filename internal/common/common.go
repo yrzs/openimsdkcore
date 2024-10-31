@@ -18,7 +18,7 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/utils"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 func UnmarshalTips(msg *sdkws.MsgData, detail proto.Message) error {

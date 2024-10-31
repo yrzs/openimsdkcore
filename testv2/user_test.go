@@ -20,7 +20,7 @@ import (
 
 	"github.com/yrzs/openimsdkcore/open_im_sdk"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 func Test_GetSelfUserInfo(t *testing.T) {

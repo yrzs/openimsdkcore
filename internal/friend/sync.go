@@ -20,8 +20,8 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/sdkerrs"
 
-	"github.com/yrzs/openimsdkprotocol/friend"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/friend"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

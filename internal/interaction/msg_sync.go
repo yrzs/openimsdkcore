@@ -22,7 +22,7 @@ import (
 	"github.com/yrzs/openimsdkcore/sdk_struct"
 	"strings"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

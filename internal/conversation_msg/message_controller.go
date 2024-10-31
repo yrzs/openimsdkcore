@@ -25,7 +25,7 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/utils"
 	"github.com/yrzs/openimsdkcore/sdk_struct"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

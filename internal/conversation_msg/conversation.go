@@ -35,10 +35,10 @@ import (
 
 	"github.com/yrzs/openimsdktools/log"
 
-	"github.com/yrzs/openimsdkprotocol/msg"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/msg"
+	"github.com/openimsdk/protocol/sdkws"
 
-	pbConversation "github.com/yrzs/openimsdkprotocol/conversation"
+	pbConversation "github.com/openimsdk/protocol/conversation"
 )
 
 func (c *Conversation) setConversation(ctx context.Context, apiReq *pbConversation.SetConversationsReq, localConversation *model_struct.LocalConversation) error {

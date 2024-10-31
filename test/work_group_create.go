@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 )
 
 var (

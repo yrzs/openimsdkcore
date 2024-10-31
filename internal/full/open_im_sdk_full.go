@@ -16,11 +16,11 @@ package full
 
 import (
 	"context"
+	"github.com/openimsdk/protocol/sdkws"
 	"github.com/yrzs/openimsdkcore/pkg/common"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 	api "github.com/yrzs/openimsdkcore/pkg/server_api_params"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
 )
 

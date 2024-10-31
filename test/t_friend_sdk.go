@@ -29,7 +29,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/yrzs/openimsdkprotocol/sdkws"
+	"github.com/openimsdk/protocol/sdkws"
 
 	"github.com/yrzs/openimsdktools/mcontext"
 )

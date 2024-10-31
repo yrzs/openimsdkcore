@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	authPB "github.com/yrzs/openimsdkprotocol/auth"
-	"github.com/yrzs/openimsdkprotocol/sdkws"
-	userPB "github.com/yrzs/openimsdkprotocol/user"
+	authPB "github.com/openimsdk/protocol/auth"
+	"github.com/openimsdk/protocol/sdkws"
+	userPB "github.com/openimsdk/protocol/user"
 	"github.com/yrzs/openimsdktools/log"
 )
 
