@@ -15,7 +15,6 @@
 package conversation_msg
 
 import (
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"context"
 	"encoding/json"
 	"errors"
@@ -26,6 +25,7 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/sdkerrs"
 	"github.com/yrzs/openimsdkcore/pkg/utils"
 	"github.com/yrzs/openimsdkcore/sdk_struct"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 
 	pbMsg "github.com/yrzs/openimsdkprotocol/msg"
 	"github.com/yrzs/openimsdkprotocol/sdkws"

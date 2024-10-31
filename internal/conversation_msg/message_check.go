@@ -24,8 +24,8 @@ import (
 
 	"github.com/yrzs/openimsdktools/log"
 
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 )
 
 // 检测其内部连续性，如果不连续，则向前补齐,获取这一组消息的最大最小seq，以及需要补齐的seq列表长度

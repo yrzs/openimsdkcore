@@ -24,11 +24,11 @@ import (
 	"github.com/yrzs/openimsdkcore/pkg/utils"
 	"github.com/yrzs/openimsdkcore/sdk_struct"
 
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"github.com/jinzhu/copier"
 	pbMsg "github.com/yrzs/openimsdkprotocol/msg"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 )
 
 func (c *Conversation) doRevokeMsg(ctx context.Context, msg *sdkws.MsgData) {

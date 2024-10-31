@@ -15,7 +15,6 @@
 package group
 
 import (
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"context"
 	"crypto/md5"
 	"encoding/binary"
@@ -28,6 +27,7 @@ import (
 	"github.com/yrzs/openimsdkprotocol/group"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 	"sync"
 )
 

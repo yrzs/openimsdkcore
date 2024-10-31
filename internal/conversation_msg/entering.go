@@ -1,7 +1,6 @@
 package conversation_msg
 
 import (
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"context"
 	"encoding/json"
 	"github.com/jinzhu/copier"
@@ -13,6 +12,7 @@ import (
 	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/errs"
 	"github.com/yrzs/openimsdktools/log"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 	"time"
 )
 

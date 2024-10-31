@@ -15,7 +15,6 @@
 package group
 
 import (
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"context"
 	"github.com/yrzs/openimsdkcore/internal/util"
 	"github.com/yrzs/openimsdkcore/open_im_sdk_callback"
@@ -29,6 +28,7 @@ import (
 	"github.com/yrzs/openimsdkprotocol/group"
 	"github.com/yrzs/openimsdkprotocol/sdkws"
 	"github.com/yrzs/openimsdktools/log"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 )
 
 func NewGroup(loginUserID string, db db_interface.DataBase,

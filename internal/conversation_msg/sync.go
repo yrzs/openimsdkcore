@@ -15,12 +15,12 @@
 package conversation_msg
 
 import (
-	utils2 "bbx-saas/app/im/pkg/transport/websocket/tools/utils"
 	"context"
 	"github.com/yrzs/openimsdkcore/pkg/common"
 	"github.com/yrzs/openimsdkcore/pkg/constant"
 	"github.com/yrzs/openimsdkcore/pkg/db/model_struct"
 	"github.com/yrzs/openimsdkcore/pkg/syncer"
+	utils2 "github.com/yrzs/openimsdktools/utils"
 	"time"
 
 	"github.com/yrzs/openimsdktools/log"
